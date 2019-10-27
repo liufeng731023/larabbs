@@ -13,7 +13,7 @@ class User extends Authenticatable implements MustVerifyEmailContract
 
 
     protected $fillable = [
-        'name', 'email', 'password','introduction'
+        'name', 'email', 'password','introduction', 'avatar',
     ];
 
 
